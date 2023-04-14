@@ -33,8 +33,8 @@ namespace RevitAddin.CefSharpExample.Views
         #region InitializeWindow
         private void InitializeWindow()
         {
-            this.MinHeight = 600;
-            this.MinWidth = 800;
+            this.MinHeight = 400;
+            this.MinWidth = 600;
             this.SizeToContent = SizeToContent.WidthAndHeight;
             this.ShowInTaskbar = true;
             this.ResizeMode = ResizeMode.CanResizeWithGrip;
